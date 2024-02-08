@@ -12,13 +12,13 @@ export default function Nav() {
     // </nav>
     <div className="main-nav-container">
 
-    <a href="#">
+    <Link href="/">
         <img height="90" src="imgs/hanzo_s_cakery.png" alt="" />
-    </a>
+    </Link>
       <nav className="main-nav">
           <ul>
               <li>
-                  <Link className="nav-active" href="#">Home</Link>
+                  <Link className="nav-active" href="/">Home</Link>
               </li>
               <li>
                   <Link href="#">Menu</Link>
