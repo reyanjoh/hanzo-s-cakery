@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer-main">
         <div className="footer-logo-container">
             <Link href="">
-                <img height="90" src="hanzo_s_cakery.png" alt="" />
+                <img height="90" src="imgs/hanzo_s_cakery.png" alt="" />
             </Link>
             <ul>
                 <li>
