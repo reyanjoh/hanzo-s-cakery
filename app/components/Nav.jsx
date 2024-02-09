@@ -18,13 +18,13 @@ export default function Nav() {
       <nav className="main-nav">
           <ul>
               <li>
-                  <Link className="nav-active" href="/">Home</Link>
+                  <Link className="nav-active blueHover" href="/">Home</Link>
               </li>
               <li>
-                  <Link href="#">Menu</Link>
+                  <Link className='blueHover' href="/menu">Menu</Link>
               </li>
               <li>
-                  <Link href="#">Contact</Link>
+                  <Link className='blueHover' href="#">Contact</Link>
               </li>
           </ul>
       </nav>

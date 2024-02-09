@@ -7,15 +7,17 @@
     --margin: 10rem;
     --content-max-width: 70rem; 
     --btn-colors: #35C2D6;
+    --secondary-color: #CA3D29;
     --section-2: #FAFAFF;
     --header-font: 'Indie Flower', cursive;
+    --imprima: "Imprima", sans-serif;
 }
 
 html, body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: "Imprima", sans-serif;
+    font-family: var(--imprima);
 }
 
 .blueHover{
@@ -46,9 +48,23 @@ html, body{
     font-weight: 700;
 }
 
+.headers-2{
+  font-size: 1.9rem;
+  color: var(--btn-colors);
+  font-family: var(--header-font);
+  font-weight: 800;
+}
+
 .grid-2{
     display: grid;
     grid-template-columns: 50dvw 50dvw;
+}
+
+.grid-3{
+  display: grid;
+  row-gap: 1rem;
+  column-gap: 5rem;
+  grid-template-columns: auto auto auto;
 }
 
 .grid-2-left{
@@ -74,6 +90,25 @@ html, body{
     justify-content: center;
 }
 
+.align-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-content-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 .twin-btn{
     font-size: .9rem;
     text-decoration: none;
@@ -84,23 +119,71 @@ html, body{
 }
 
 .blue-btn{
+    transition: .2s;
     background-color: var(--btn-colors);
     color: white;
+    border: 1px solid var(--btn-colors);
+
 }
 .white-btn{
     /* background-color: var(--btn-colors); */
+    transition: .2s;
     color: var(--btn-colors);
     border: 1px solid var(--btn-colors);
 }
 
+.blue-btn:hover{
+  background-color: white;
+  color: var(--btn-colors);
+}
 
+.white-btn:hover{
+    background-color: var(--btn-colors);
+    color: white;
+    border: 1px solid var(--btn-colors);
+}
+
+.scale-hover{
+  transition: .3s;
+}
+
+.scale-hover:hover{
+  transform: scale(1.05);
+}
+
+.sec-2-p{
+  margin-bottom: 1.5rem;
+
+}
+
+.learn-more{
+  padding: .2rem 3rem;
+  text-decoration: none;
+  color: var(--btn-colors);
+  border: 1px solid var(--btn-colors);
+  border-radius: 3px;
+}
+
+.view-more{
+    padding: .3rem 2.2rem;
+    text-decoration: none;
+    margin-top: 2rem;
+    border-radius: 3px;
+}
+
+
+
+
+/* /////////// */
+/* GOLBAL END */
+/* /////////// */
 
 .main-nav > ul  {
     list-style: none;
       
     display: flex;
     flex-direction: row;
-    gap: 4rem;
+    gap: 2rem;
 
     /* background-color: red; */
 
@@ -108,11 +191,14 @@ html, body{
 
 .main-nav > ul > li > a{
     text-decoration: none;
-    color: black;    
+    color: black;   
+    padding: .2rem 1rem; 
+    border-radius: 4px;
 }
 
 .nav-active{
-    color: #35C2D6;
+    /* outline: 1px solid var(--btn-colors); */
+    color: var(--btn-colors);
 }
 
 
@@ -137,6 +223,130 @@ html, body{
     width: 28rem;
 }
 
+.blobed-imgs{
+  position: relative;
+  width: 20rem;
+}
+
+.blobed-imgs::before{
+  content: url(/imgs/blobs/blob-1.png);
+  display: block;
+
+}
+
+.section-2{
+  min-height: 25rem;
+  background-color: var(--section-2);
+}
+
+.blob-imgs{
+  width: 5rem;
+  margin: 1.5rem .3rem;
+}
+
+.featured-blob-imgs{
+  display: flex;
+}
+
+.blob-imgs-container{
+  position: relative;
+
+}
+
+.eye-icon{
+  position: absolute;
+  bottom: 1.7rem;
+  right: 0;
+
+}
+
+.blob-background{
+  position: absolute;
+  height: 140%;
+}
+
+.section-3{
+  padding: 3rem var(--margin);
+  text-align: center;
+
+}
+.why-us-blob-container{
+  width: 100%;
+  border: 1px solid red;
+  height: 20rem;
+  position: relative;
+}
+
+.icom-with-bg{
+    background-image: url(/imgs/blobs/blob-haikei1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.why-us-icon{
+  position: absolute;
+  width: 2.5rem;
+  top: 2.5rem;
+  filter: var(--btn-colors);
+  /* top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+}
+
+.why-us-headers{
+    font-family: var(--header-font);
+    color: var(--secondary-color);
+    margin: 0;
+}
+.why-us-p{
+    position: relative;
+}
+
+
+.section-4{
+    padding: 0 var(--margin);
+    row-gap: 4rem;
+}
+
+
+.sec-4-p{
+    width: 35rem;
+    text-align: center;
+    margin: 0;
+}
+
+
+.homepage-cake-card{
+    /* border: 1px solid brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cake-card-cover-img{
+    width: 100%;
+}
+
+.cake-card-header{
+    color: var(--secondary-color);
+    font-weight: 800;
+    font-family: var(--header-font);
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.cake-card-price{
+    font-weight: 800;
+    font-family: var(--header-font);
+    font-size: .8rem;
+}
+
+.cake-card-p{
+    font-family: var(--header-font);
+    font-size: .9rem;
+
+}
 
 
 
