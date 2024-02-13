@@ -1,15 +1,27 @@
-import React from 'react'
+'use client';
 
+import React from 'react'
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
 
 export default function Nav() {
-  return (
-    // <nav>
 
-    //     <Link className="nav-active" href={"/about"}>About</Link>
-    //     <Link href={"/menu"}>Menu</Link>
-    //     <Link href={"/contact"}>Contact</Link>
-    // </nav>
+  const pathname = usePathname()
+
+  const pages = [
+    {name: 'Home', href: '/'},
+    {name: 'Menu', href: '/menu'},
+    {name: 'About', href: '/about'}
+  ];
+
+  const isActive = (path) => {
+    // console.log(pathname);
+    return pathname === path;
+  }
+
+
+  return (
+
     <div className="main-nav-container">
 
     <Link href="/">
@@ -17,15 +29,27 @@ export default function Nav() {
     </Link>
       <nav className="main-nav">
           <ul>
-              <li>
-                  <Link className="nav-active blueHover" href="/">Home</Link>
+
+              {pages.map((page) =>{
+                // const isActive = pathname.startsWith(link.href);
+
+                
+                {return(
+                  <li key={page.name}>
+                  <Link className={isActive(page.href) ? 'active-nav' : 'blueHover'} href={page.href}>{page.name}</Link>
+                  </li>
+                )}
+              })}
+
+              {/* <li>
+                  <Link className="blueHover" href="/">Home</Link>
               </li>
               <li>
                   <Link className='blueHover' href="/menu">Menu</Link>
               </li>
               <li>
                   <Link className='blueHover' href="#">Contact</Link>
-              </li>
+              </li> */}
           </ul>
       </nav>
     </div>

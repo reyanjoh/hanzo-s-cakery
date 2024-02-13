@@ -20,6 +20,11 @@ html, body{
     font-family: var(--imprima);
 }
 
+.indie-flower{
+    font-family: var(--header-font) !important;
+}
+
+
 .blueHover{
     transition: .2s;
 }
@@ -157,7 +162,7 @@ html, body{
 }
 
 .learn-more{
-  padding: .2rem 3rem;
+  padding: .4rem 3rem;
   text-decoration: none;
   color: var(--btn-colors);
   border: 1px solid var(--btn-colors);
@@ -165,7 +170,7 @@ html, body{
 }
 
 .view-more{
-    padding: .3rem 2.2rem;
+    padding: .4rem 3rem;
     text-decoration: none;
     margin-top: 2rem;
     border-radius: 3px;
@@ -196,10 +201,13 @@ html, body{
     border-radius: 4px;
 }
 
-.nav-active{
-    /* outline: 1px solid var(--btn-colors); */
-    color: var(--btn-colors);
+.main-nav > ul > li > a.active-nav{
+    text-decoration: underline;
+    color: var(--btn-colors);   
+    padding: .2rem 1rem; 
+    border-radius: 4px;
 }
+
 
 
 .hero{
@@ -316,6 +324,9 @@ html, body{
     margin: 0;
 }
 
+/* .homepage-cake-card:nth-child(2){
+    margin-top: 10rem;
+} */
 
 .homepage-cake-card{
     /* border: 1px solid brown; */
@@ -347,6 +358,35 @@ html, body{
     font-size: .9rem;
 
 }
+
+
+
+/* ///////////////// */
+/* /// Menu Page /// */
+/* ///////////////// */
+
+.menu-cover-texts{
+    /* border: 1px solid brown; */
+    margin: 0 var(--margin);
+    padding-right: 29rem;
+}
+
+.menu-cover-texts h1{
+    color: var(--btn-colors);
+}
+
+.menu-btns{
+    margin: 2rem var(--margin);
+}
+
+.menu-selected{
+    background-color: var(--btn-colors);
+    color: white;
+    border: none;
+    padding: .4rem 2rem;
+    border-radius: 3px;
+}
+
 
 
 

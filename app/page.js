@@ -109,7 +109,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="grid-3">
+        <div className="grid-3 homepage-cake-card-container">
           
           <div className="homepage-cake-card"> 
             <div className="cake-card-cover"> 
