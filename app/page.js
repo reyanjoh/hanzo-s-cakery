@@ -67,6 +67,25 @@ export default function Home() {
         </div>
       </div>
 
+
+      <div> 
+          <div className="align-center">
+            <h2 className="headers-2">Why us?</h2>
+          </div>
+          <div className="grid-3">
+            <div className="relative">
+              <img src="imgs/blobs/blob-haikei1.svg" className="why-us-img" />
+            </div>
+            <div className="relative">
+              <img src="imgs/blobs/blob-haikei1.svg" className="why-us-img" />      
+            </div>
+            <div className="relative">
+              <img src="imgs/blobs/blob-haikei1.svg" className="why-us-img" />      
+            </div>
+          </div>
+
+      </div>
+
       {/* <div className="section-3 ">
         <h2 className="headers-2">Why us?</h2>
         <div className="grid-3">
@@ -113,7 +132,7 @@ export default function Home() {
           
           <div className="homepage-cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/418443456_327620643436046_6191546965866612978_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=hF7JYgkzMeoAX8xnPsS&_nc_ht=scontent.fcgy2-1.fna&oh=00_AfB5IKhi2rbWhb6wZYV0j1eFo4FAyIIRae_n5zzXco88ew&oe=65CFE267" />
+              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -129,7 +148,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="homepage-cake-card"> 
+          <div className="homepage-cake-card cake-card-center"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -183,7 +202,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="homepage-cake-card"> 
+          <div className="homepage-cake-card cake-card-center"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>

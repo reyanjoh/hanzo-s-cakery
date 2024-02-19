@@ -67,7 +67,7 @@ html, body{
 
 .grid-3{
   display: grid;
-  gap: 1.5rem;
+  gap: 3rem;
 
   /* row-gap: 1rem;
   column-gap: 5rem; */
@@ -84,6 +84,10 @@ html, body{
     font-size: 3.5rem;
     line-height: 3rem
 
+}
+
+.relative{
+    position: relative;
 }
 
 .grid-2-right{
@@ -332,21 +336,29 @@ html, body{
 
 .homepage-cake-card{
     /* background-color: #CA3D29; */
-    border: 1px solid rgb(160, 160, 160);
-    padding: 1.2rem;
+    /* border: 1px solid rgb(160, 160, 160); */
+    /* padding: 1.2rem; */
+    margin-bottom: 4rem;
+
 }
 
 .cake-card-cover{
-    height: 20rem;
     /* background-color: red; */
+    padding: 0;
 }
+
+.cake-card-center{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 
 .cake-card-cover-img{
     width: 100%;
     height: 100%;
 
     /* max-height: 25rem; */
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .cake-card-body{
@@ -369,7 +381,7 @@ html, body{
 
 .cake-card-p{
     font-family: var(--header-font);
-    font-size: .9rem;
+    font-size: .9rem;                   
 
 }
 
@@ -541,3 +553,32 @@ html, body{
 }
 
 
+
+
+@media only screen and (min-width: 1920px) {
+    :root{
+        --margin: 20rem;
+        --content-max-width: 70rem; 
+    }
+
+    .grid-3{
+        gap: 8rem;
+      
+      }
+
+      .hero-img{
+        width: 36rem;
+    }
+
+    .hero-header{
+        font-size: 5rem;
+        line-height: 4.5rem
+    
+    }
+
+    .twin-btn{
+        font-size: 1rem;
+        padding: .5rem;
+        /* width: 7rem; */
+    }
+  }
