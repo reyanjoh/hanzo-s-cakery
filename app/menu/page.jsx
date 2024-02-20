@@ -1,6 +1,7 @@
 import React from 'react'
 import EmailCapture from '../components/EmailCapture';
 import Link from 'next/link';
+import FetchCakes from '../FetchCakes';
 
 export const metadata = {
   title: "Hanzo's Cakery | Menu",
@@ -25,26 +26,10 @@ export default function Menu() {
       </div>
 
       <div className='grid-3 menu-menus'> 
+
+      <FetchCakes />
         
-      <div className="homepage-cake-card"> 
-            <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/418443456_327620643436046_6191546965866612978_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=hF7JYgkzMeoAX8xnPsS&_nc_ht=scontent.fcgy2-1.fna&oh=00_AfB5IKhi2rbWhb6wZYV0j1eFo4FAyIIRae_n5zzXco88ew&oe=65CFE267" />
-            </div>
-            <div className="cake-card-body">
-              <h5 className="cake-card-header">
-                Focaccia
-              </h5>
-
-              <span className="cake-card-price">
-                ₱ 350
-              </span>
-
-              <p className="cake-card-p">
-                Top with chocolate buttercream and chocolate chips for 3x the chocolate flavor.
-              </p>
-            </div>
-        </div>
-        <div className="homepage-cake-card"> 
+      {/* <div className="cake-card"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -62,7 +47,7 @@ export default function Menu() {
               </p>
             </div>
         </div>
-        <div className="homepage-cake-card"> 
+        <div className="cake-card"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -80,7 +65,7 @@ export default function Menu() {
               </p>
             </div>
         </div>
-        <div className="homepage-cake-card"> 
+        <div className="cake-card"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -98,7 +83,7 @@ export default function Menu() {
               </p>
             </div>
         </div>
-        <div className="homepage-cake-card"> 
+        <div className="cake-card"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -116,7 +101,7 @@ export default function Menu() {
               </p>
             </div>
         </div>
-        <div className="homepage-cake-card"> 
+        <div className="cake-card"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -134,7 +119,7 @@ export default function Menu() {
               </p>
             </div>
         </div>
-        <div className="homepage-cake-card"> 
+        <div className="cake-card"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -152,7 +137,7 @@ export default function Menu() {
               </p>
             </div>
         </div>
-        <div className="homepage-cake-card"> 
+        <div className="cake-card"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -170,6 +155,24 @@ export default function Menu() {
               </p>
             </div>
         </div>
+        <div className="cake-card"> 
+            <div className="cake-card-cover"> 
+              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+            </div>
+            <div className="cake-card-body">
+              <h5 className="cake-card-header">
+                Focaccia
+              </h5>
+
+              <span className="cake-card-price">
+                ₱ 350
+              </span>
+
+              <p className="cake-card-p">
+                Top with chocolate buttercream and chocolate chips for 3x the chocolate flavor.
+              </p>
+            </div>
+        </div> */}
 
 
       </div>

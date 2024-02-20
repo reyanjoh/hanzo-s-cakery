@@ -68,23 +68,26 @@ export default function Home() {
       </div>
 
 
-      <div> 
+      {/* <div className="why-us-sec"> 
           <div className="align-center">
             <h2 className="headers-2">Why us?</h2>
           </div>
-          <div className="grid-3">
-            <div className="relative">
-              <img src="imgs/blobs/blob-haikei1.svg" className="why-us-img" />
+          <div className="grid-3 why-us-cards">
+            <div className="why-us-card center-content relative">
+              <img className="why-us-icon" src="imgs/icons/bag-shopping-solid.svg"/>
+              <img src="imgs/blobs/blob.png" className="why-us-img" />
             </div>
-            <div className="relative">
-              <img src="imgs/blobs/blob-haikei1.svg" className="why-us-img" />      
+            <div className="why-us-card why center-content relative">
+              <img className="why-us-icon" src="imgs/icons/truck-fast-solid.svg"/>
+              <img src="imgs/blobs/blob.png" className="why-us-img" />      
             </div>
-            <div className="relative">
-              <img src="imgs/blobs/blob-haikei1.svg" className="why-us-img" />      
+            <div className="why-us-card center-content relative">
+              <img className="why-us-icon" src="imgs/icons/award-solid.svg"/>
+              <img src="imgs/blobs/blob.png" className="why-us-img" />      
             </div>
           </div>
 
-      </div>
+      </div> */}
 
       {/* <div className="section-3 ">
         <h2 className="headers-2">Why us?</h2>
@@ -130,7 +133,7 @@ export default function Home() {
 
         <div className="grid-3 homepage-cake-card-container">
           
-          <div className="homepage-cake-card"> 
+          <div className="cake-card"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -148,7 +151,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="homepage-cake-card cake-card-center"> 
+          <div className="cake-card cake-card-center"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -166,7 +169,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="homepage-cake-card"> 
+          <div className="cake-card"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -184,7 +187,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="homepage-cake-card"> 
+          <div className="cake-card"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -202,7 +205,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="homepage-cake-card cake-card-center"> 
+          <div className="cake-card cake-card-center"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
@@ -220,7 +223,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="homepage-cake-card"> 
+          <div className="cake-card"> 
             <div className="cake-card-cover"> 
               <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
