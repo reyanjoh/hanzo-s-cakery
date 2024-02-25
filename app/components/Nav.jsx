@@ -3,6 +3,7 @@
 import React from 'react'
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 
 export default function Nav() {
 
@@ -23,9 +24,8 @@ export default function Nav() {
   return (
 
     <div className="main-nav-container">
-
     <Link href="/">
-        <img height="90" src="imgs/hanzo_s_cakery.png" alt="" />
+        <Image height="90" src="imgs/hanzo_s_cakery.png" alt="" />
     </Link>
       <nav className="main-nav">
           <ul>

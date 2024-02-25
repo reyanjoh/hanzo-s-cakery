@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 import EmailCapture from "./components/EmailCapture";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -18,32 +18,31 @@ export default function Home() {
               <Link className="twin-btn white-btn" href="/menu">Menu</Link>
           </div>
 
-          {/* <Image 
+          {/* <Image alt="" 
             src="imgs/blob-cake-1.png"
             width={500}
             height={500}
             alt="cake 1"
           /> */}
-          
         <div className="featured-blob-imgs">
           <div className="blob-imgs-container scale-hover">
-            <img className="blob-imgs" src="imgs/blob-cake-1.png"/>
-            <img src="/imgs/icons/eye.png" className="eye-icon"/>
+            <Image alt="" className="blob-imgs" src="imgs/blob-cake-1.png"/>
+            <Image alt="" src="/imgs/icons/eye.png" className="eye-icon"/>
           </div>
           <div className="blob-imgs-container scale-hover">
-            <img className="blob-imgs" src="imgs/blob-cake-2.png"/>
-            <img src="/imgs/icons/eye.png" className="eye-icon"/>
+            <Image alt="" className="blob-imgs" src="imgs/blob-cake-2.png"/>
+            <Image alt="" src="/imgs/icons/eye.png" className="eye-icon"/>
           </div>
           <div className="blob-imgs-container scale-hover">
-            <img className="blob-imgs" src="imgs/blob-cake-3.png"/>
-            <img src="/imgs/icons/eye.png" className="eye-icon"/>
+            <Image alt="" className="blob-imgs" src="imgs/blob-cake-3.png"/>
+            <Image alt="" src="/imgs/icons/eye.png" className="eye-icon"/>
           </div>
         </div>
 
 
         </div>
         <div className="grid-2-right">
-          <img className="hero-img" src="imgs/whole cake with overlay.png" alt="hanzo's cakery featured cake" />
+          <Image className="hero-img" src="imgs/whole cake with overlay.png" alt="hanzo's cakery featured cake" />
         </div>
       </div>
 
@@ -51,8 +50,8 @@ export default function Home() {
       <div className="section-2 grid-2">
         <div className="grid-2-left justify-center"> 
           <div className="blob-imgs-container center-content">
-            <img className="blob-background" src="/imgs/blobs/blob-1.png"/>
-            <img className="blobed-imgs" src="/imgs/cookies.png"/>
+            <Image alt="" className="blob-background" src="/imgs/blobs/blob-1.png"/>
+            <Image alt="" className="blobed-imgs" src="/imgs/cookies.png"/>
           </div>
         </div>
         <div className="grid-2-right justify-center"> 
@@ -74,16 +73,16 @@ export default function Home() {
           </div>
           <div className="grid-3 why-us-cards">
             <div className="why-us-card center-content relative">
-              <img className="why-us-icon" src="imgs/icons/bag-shopping-solid.svg"/>
-              <img src="imgs/blobs/blob.png" className="why-us-img" />
+              <Image alt="" className="why-us-icon" src="imgs/icons/bag-shopping-solid.svg"/>
+              <Image alt="" src="imgs/blobs/blob.png" className="why-us-img" />
             </div>
             <div className="why-us-card why center-content relative">
-              <img className="why-us-icon" src="imgs/icons/truck-fast-solid.svg"/>
-              <img src="imgs/blobs/blob.png" className="why-us-img" />      
+              <Image alt="" className="why-us-icon" src="imgs/icons/truck-fast-solid.svg"/>
+              <Image alt="" src="imgs/blobs/blob.png" className="why-us-img" />      
             </div>
             <div className="why-us-card center-content relative">
-              <img className="why-us-icon" src="imgs/icons/award-solid.svg"/>
-              <img src="imgs/blobs/blob.png" className="why-us-img" />      
+              <Image alt="" className="why-us-icon" src="imgs/icons/award-solid.svg"/>
+              <Image alt="" src="imgs/blobs/blob.png" className="why-us-img" />      
             </div>
           </div>
 
@@ -95,9 +94,9 @@ export default function Home() {
           <div className="why-us-blob-container why-us-img-1 center-content-column">
            
             <div className="icom-with-bg center-content-column"> */}
-              {/* <img className="why-us-icon" src="/imgs/icons/bag-shopping-solid.svg"/> */}
+              {/* <Image alt="" className="why-us-icon" src="/imgs/icons/bag-shopping-solid.svg"/> */}
               
-              {/* <img className="why-us-icon" src="/imgs/icons/bag-shopping-solid.svg"/>
+              {/* <Image alt="" className="why-us-icon" src="/imgs/icons/bag-shopping-solid.svg"/>
             </div>
 
             <h4 className="why-us-headers">Easy to order</h4>
@@ -106,7 +105,7 @@ export default function Home() {
           </div>
           <div className="why-us-blob-container why-us-img-2 center-content-column">
               <div className="icom-with-bg center-content-column">
-                <img className="why-us-icon" src="/imgs/icons/truck-fast-solid.svg"/>                  
+                <Image alt="" className="why-us-icon" src="/imgs/icons/truck-fast-solid.svg"/>                  
               </div>
             <h4 className="why-us-headers">Easy to order</h4>
             <p className="why-us-p">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.</p>
@@ -114,7 +113,7 @@ export default function Home() {
           </div>
           <div className="why-us-blob-container why-us-img-3 center-content-column">
               <div className="icom-with-bg center-content-column">
-                <img className="why-us-icon" src="/imgs/icons/award-solid.svg"/>
+                <Image alt="" className="why-us-icon" src="/imgs/icons/award-solid.svg"/>
               </div>
             <h4 className="why-us-headers">Easy to order</h4>
             <p className="why-us-p">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.</p>
@@ -135,7 +134,7 @@ export default function Home() {
           
           <div className="cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt="" className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -153,7 +152,7 @@ export default function Home() {
           </div>
           <div className="cake-card cake-card-center"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt="" className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -171,7 +170,7 @@ export default function Home() {
           </div>
           <div className="cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt="" className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -189,7 +188,7 @@ export default function Home() {
           </div>
           <div className="cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt="" className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -207,7 +206,7 @@ export default function Home() {
           </div>
           <div className="cake-card cake-card-center"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt="" className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -225,7 +224,7 @@ export default function Home() {
           </div>
           <div className="cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt="" className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">

@@ -1,7 +1,7 @@
 import React from 'react'
 import EmailCapture from '../components/EmailCapture';
 import Link from 'next/link';
-import FetchCakes from '../FetchCakes';
+import Image from 'next/image';
 
 export const metadata = {
   title: "Hanzo's Cakery | Menu",
@@ -26,12 +26,10 @@ export default function Menu() {
       </div>
 
       <div className='grid-3 menu-menus'> 
-
-      <FetchCakes />
         
-      {/* <div className="cake-card"> 
+      <div className="cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt='' className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -49,7 +47,7 @@ export default function Menu() {
         </div>
         <div className="cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt='' className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -67,7 +65,7 @@ export default function Menu() {
         </div>
         <div className="cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt='' className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -85,7 +83,7 @@ export default function Menu() {
         </div>
         <div className="cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt='' className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -103,7 +101,7 @@ export default function Menu() {
         </div>
         <div className="cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt='' className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -121,7 +119,7 @@ export default function Menu() {
         </div>
         <div className="cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt='' className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -139,7 +137,7 @@ export default function Menu() {
         </div>
         <div className="cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt='' className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -157,7 +155,7 @@ export default function Menu() {
         </div>
         <div className="cake-card"> 
             <div className="cake-card-cover"> 
-              <img className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
+              <Image alt='' className="cake-card-cover-img" src="/imgs/blob-cake-1.png" />
             </div>
             <div className="cake-card-body">
               <h5 className="cake-card-header">
@@ -172,7 +170,7 @@ export default function Menu() {
                 Top with chocolate buttercream and chocolate chips for 3x the chocolate flavor.
               </p>
             </div>
-        </div> */}
+        </div>
 
 
       </div>

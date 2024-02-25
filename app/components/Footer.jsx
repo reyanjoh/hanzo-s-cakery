@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -6,9 +7,10 @@ export default function Footer() {
     <footer className="footer-main">
         <div className="footer-logo-container">
             <Link href="">
-                <img height="90" src="imgs/hanzo_s_cakery.png" alt="" />
+                <Image height="90" src="imgs/hanzo_s_cakery.png" alt="" />
             </Link>
             <ul>
+                
                 <li>
                     <Link className="blueHover" href="tel:0912-232-1231">0912-232-1231</Link>
                 </li>

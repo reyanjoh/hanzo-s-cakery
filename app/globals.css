@@ -524,57 +524,6 @@ html, body{
 
 
 
-.footer-main{
-    display: flex;
-    padding: 2rem var(--margin);
-    background-color: var(--section-2);
-}
-
-.footer-main *{
-    list-style: none;
-    color: black;
-    text-decoration: none;
-}
-
-.footer-main > .footer-logo-container > ul{
-    padding: 0;
-    margin: 0;
-}
-
-.footer-main > .footer-logo-container > ul > li{
-    padding: .35rem 0;
-    /* letter-spacing: 1px; */
-}
-
-.footer-main > .footer-logo-container > ul *{
-    font-size: .9rem;
-}
-
-.footer-main > .footer-sitemap {
-    width: 100%;
-    margin: 1rem 0 0 5rem;
-}
-
-.footer-main > .footer-sitemap * {
-    padding: .2rem 0;
-}
-
-.footer-main > .footer-sitemap span {
-    font-weight: 600;
-}
-
-
-
-.footer-main > .footer-sitemap > ul{
-    display: flex;
-    justify-content: space-between;
-    /* background-color: blueviolet; */
-    list-style: none;
-}
-
-.footer-main > .footer-sitemap > ul > li > ul {
-    list-style: none;
-}
 
 
 
