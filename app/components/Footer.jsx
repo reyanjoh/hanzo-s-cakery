@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import styles from '../css/components.module.css'
 
 export default function Footer() {
   return (
-    <footer className="footer-main">
-        <div className="footer-logo-container">
+    <footer className={styles.footerMain}>
+        <div className={styles.footerLogoContainer}>
             <Link href="">
-                <Image height="90" src="imgs/hanzo_s_cakery.png" alt="" />
+                <Image height={90} width={90} src="/imgs/logo.png" alt="" />
             </Link>
             <ul>
                 
@@ -27,7 +28,7 @@ export default function Footer() {
             </ul>
         </div>
 
-        <div className="footer-sitemap">
+        <div className={styles.footerSitemap}>
             <ul>
                 <li>
                     <span>Services</span>
@@ -69,13 +70,13 @@ export default function Footer() {
                     <span>Follow us</span>
                     <ul>
                         <li>
-                            <Link className="blueHover" href="#">Facebook</Link>
+                            <Link className="blueHover" target='_blank' href="https://www.facebook.com/profile.php?id=100085643388007">Facebook</Link>
                         </li>
                         <li>
-                            <Link className="blueHover" href="#">tik-tok</Link>
+                            <Link className="blueHover" target='_blank' href="#">tik-tok</Link>
                         </li>
                         <li>
-                            <Link className="blueHover" href="#">Pinterest</Link>
+                            <Link className="blueHover" target='_blank' href="#">Pinterest</Link>
                         </li>
                     </ul>
                 </li>

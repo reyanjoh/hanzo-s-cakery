@@ -1,0 +1,174 @@
+
+
+
+.mainNav {
+  list-style: none;
+  margin: 0 var(--white-space);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+
+  /* background-color: red; */
+
+}
+
+.mainNav > ul  {
+  list-style: none;
+    
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+
+}
+
+.mainNav > ul > li > a{
+  text-decoration: none;
+  color: black;   
+  padding: 0 1rem; 
+  /* border-radius: 4px; */
+}
+
+.mainNav > ul > li > a.active-nav{
+  text-decoration: underline;
+  color: var(--primary-color);   
+  padding: .2rem 1rem; 
+  /* border-radius: 4px; */
+}
+
+
+
+
+
+.emailCaptureContainer{
+
+    margin: 3rem var(--white-space);
+    background-image: url('/imgs/cake_landscape.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: 100% 200%; */
+    color: white;
+    /* filter: blur(1px); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: red; */
+    height: 15rem;
+    /* border-radius: .8rem; */
+    position: relative;
+   
+
+}
+
+.filter{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .4;
+    position: absolute;
+    z-index: 0;
+    /* border-radius: .8rem; */
+
+}
+
+.emailCaptureContainer > form  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1rem;
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+    
+}
+.input{
+    width: 100%;
+    position: relative;
+}
+
+.newsLetter{
+    height: 2.5rem;
+    /* border-radius: .5rem; */
+    width: calc(100% - 2rem);
+    border: none;
+    padding: 0 1rem;
+}
+.newsLetterSubmit{
+    position: absolute;
+    right: .3rem;
+    top: .3rem;
+    bottom: .3rem;
+    /* font-size: 1rem; */
+    padding: 0 1.5rem;
+    /* border-radius: .5rem; */
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.footerMain{
+    display: flex;
+    padding: 2rem var(--white-space);
+    background-color: var(--section-2);
+}
+  
+.footer-main *{
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+.footerLogoContainer > ul{
+  padding: 0;
+  margin: 0;
+}
+
+.footerLogoContainer > ul > li{
+  padding: .35rem 0;
+  /* letter-spacing: 1px; */
+}
+
+.footerLogo-Container > ul *{
+  font-size: .9rem;
+}
+
+.footerSitemap {
+  width: 100%;
+  margin: 1rem 0 0 5rem;
+}
+
+.footerSitemap * {
+  padding: .2rem 0;
+}
+
+.footerSitemap span {
+  font-weight: 600;
+  color: var();
+}
+
+
+
+.footerSitemap > ul{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blueviolet; */
+  list-style: none;
+}
+
+.footerSitemap > ul > li > ul {
+  list-style: none;
+}

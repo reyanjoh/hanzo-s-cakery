@@ -1,15 +1,18 @@
 import React from 'react'
+import styles from '../css/components.module.css'
+
 
 export default function EmailCapture() {
   return (
-    <div className="emailCapture-container">
-    <div className="filter"></div>
+    <div className={styles.emailCaptureContainer}>
+    <div className={styles.filter}></div>
         <form action="">
             <label htmlFor="news-letter" className="headers">Enjoy out best deals</label>
             <span>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys</span>
-            <div className="input">
-                <input type="text" placeholder="send us your email to get our latest sale & discount updates" className="news-letter" name="news-letter" id="news-letter" />
-                <button className="news-letter-submit" type="submit">Sign Up</button>
+            <div className={styles.input}>
+                <input type="text" placeholder="send us your email to get our latest sale & discount updates" className={styles.newsLetter} name="news-letter" id="news-letter" />
+
+                <button className={styles.newsLetterSubmit} type="submit">Sign Up</button>
             </div>
         </form>
     </div>
