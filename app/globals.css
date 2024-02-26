@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 :root {
 
   --border-radius: 12px;
@@ -12,6 +17,10 @@
 
     --primary-color: #35C2D6;
     --secondary-color: #CA3D29;
+    --text-color: #fafaff;
+
+    --indie: 'Indie Flower', cursive;
+    --imprima: "Imprima", sans-serif;
 
 
 
@@ -85,6 +94,7 @@ body {
   color: var(--primary-color) !important;   
   padding: .2rem 1rem; 
   border-radius: 4px;
+  font-weight: 600;
 }
 
 .headers{
@@ -97,6 +107,28 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-row-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-colum{
+  display: flex;
+  flex-direction: column;
+}
+
+.height-50{
+  height: 50%;
+}
+
+.width-50{
+  width: 50%;
 }
 
 /* @media (prefers-color-scheme: dark) {

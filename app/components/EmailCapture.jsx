@@ -5,7 +5,7 @@ import styles from '../css/components.module.css'
 export default function EmailCapture() {
   return (
     <div className={styles.emailCaptureContainer}>
-    <div className={styles.filter}></div>
+    <div className="filter"></div>
         <form action="">
             <label htmlFor="news-letter" className="headers">Enjoy out best deals</label>
             <span>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys</span>

@@ -23,21 +23,23 @@ export default function Nav() {
     }
 
   return (
-    <nav className={styles.mainNav}>
-        <Link href="/">
-            <Image height={90} width={90} src="/imgs/logo.png" alt="" />
-        </Link>
+    <header >
+        <nav className={styles.mainNav}>
+            <Link href="/">
+                <Image height={90} width={90} src="/imgs/logo.png" alt="" />
+            </Link>
 
-        <ul>
-            {pages.map((page) => {
-                {return(
-                    <li key={page.name}>
-                        <Link className= {isActive(page.path) ? 'active-nav' : 'blueHover'} href={page.path} >{page.name}</Link>
-                    </li>
-                )}
-            })}
-        </ul>
+            <ul>
+                {pages.map((page) => {
+                    {return(
+                        <li key={page.name}>
+                            <Link className= {isActive(page.path) ? 'active-nav' : 'blueHover'} href={page.path} >{page.name}</Link>
+                        </li>
+                    )}
+                })}
+            </ul>
     
-    </nav>
+        </nav>
+    </header>
   )
 }

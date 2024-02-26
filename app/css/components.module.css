@@ -3,12 +3,12 @@
 
 .mainNav {
   list-style: none;
-  margin: 0 var(--white-space);
+  margin: 1rem var(--white-space);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 2rem;
-
+ 
   /* background-color: red; */
 
 }
